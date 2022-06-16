@@ -5,11 +5,10 @@ public class HighLow {
     public static void main(String[] args) {
         Random rand = new Random();
 
-// Obtain a number between [0 - 49].
+
         int randomNum = rand.nextInt(100);
 
-// Add 1 to the result to get a number from the required range
-// (i.e., [1 - 50]).
+
         randomNum += 1;
         int guess;
         int lives = 10;
